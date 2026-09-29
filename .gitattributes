@@ -1,0 +1,13 @@
+# Auto-detect text files and normalize line endings to LF on commit
+* text=auto eol=lf
+
+# Go sources with language-aware diff hunk headers
+*.go text eol=lf diff=golang
+
+# Build, config, and documentation
+Makefile text eol=lf
+go.mod text eol=lf
+*.md text eol=lf
+.editorconfig text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
